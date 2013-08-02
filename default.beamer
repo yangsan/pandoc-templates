@@ -157,6 +157,10 @@ $if(biblatex)$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
 
 $endif$
+$if(references)$
+
+$references$
+$endif$
 $for(include-after)$
 $include-after$
 

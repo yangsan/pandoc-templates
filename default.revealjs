@@ -64,6 +64,10 @@ $toc$
 $endif$
 
 $body$
+$if(references)$
+
+$references$
+$endif$
     </div>
   </div>
 $for(include-after)$

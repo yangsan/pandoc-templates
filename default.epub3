@@ -33,6 +33,12 @@ $if(date)$
 $endif$
 $else$
 $body$
+$if(references)$
+$references$
+$endif$
+$for(include-after)$
+$include-after$
+$endfor$
 $endif$
 </body>
 </html>
