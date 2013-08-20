@@ -15,6 +15,10 @@ $toc$
 
 $endif$
 $body$
+$if(references)$
+
+$references$
+$endif$
 $for(include-after)$
 
 $include-after$
