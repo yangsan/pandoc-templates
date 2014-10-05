@@ -130,7 +130,23 @@ $endif$
 
 \begin{document}
 $if(title)$
-\maketitle
+\begin{titlepage}
+
+    \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+    \raggedleft
+    \vspace*{\baselineskip}
+    {\Large $for(author)$$author$$sep$ \and $endfor$} \\ [0.2\textheight]
+    \HRule{0.5mm} \\ [0.5cm]
+    {\Huge $title$} \\ [0.4cm]
+    \HRule{0.3mm} \\
+
+    \vfill
+
+    {\large $date$}
+
+    \vspace*{3\baselineskip}
+\end{titlepage}
 $endif$
  
 $for(include-before)$
