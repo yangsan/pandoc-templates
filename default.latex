@@ -2,7 +2,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{times}
 \usepackage{amssymb,amsmath}
-\setCJKmainfont[ItalicFont={KaiTi}, BoldFont={SimHei}]{Hiragino Sans GB} 
+\setCJKmainfont[ItalicFont={KaiTi SC}, BoldFont={Heiti SC}]{Hiragino Sans GB} 
 
 $if(geometry)$
     \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
